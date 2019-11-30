@@ -83,10 +83,10 @@ void mapaFinal(long long int n){
         j+=cant_thread;
     }
 
-    thread t1(mostrarMapa(n/4,2));
-    thread t2(mostrarMapa(n/2,(n/4)+1));
-    thread t3(mostrarMapa(1500,(n/2)+1));
-    thread t4(mostrarMapa(n,1501));
+    thread t1(mostrarMapa(v1,2));
+    thread t2(mostrarMapa(v3,v2);
+    thread t3(mostrarMapa(v4,v3);
+    thread t4(mostrarMapa(n,v4));
 
     t1.join();
     t2.join();
